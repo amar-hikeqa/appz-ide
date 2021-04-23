@@ -12,7 +12,7 @@ build:
 
 deploy:
   type: statefulset
-  context: alpha/DEV
+  context: amar-hikeqa/DEV
   replicas: 1
   port:
   - 80
@@ -25,5 +25,5 @@ volumes:
   size: 5Gi 
 
 properties:
-  IDE_PASSWORD_HASH: "appz:$2y$10$UlYiRlcQw4Doscdodv3vruSeGc/YfKH/tc1F1/HOgPeTMUMsg84Bm"
+  IDE_PASSWORD_HASH: "Amar:$2y$10$7cYLmMRLlX0pRfHnCIZQw.VPQz7JxdS5CMP6VMTW78LtZH.v2fSI2"
   revision : 17
