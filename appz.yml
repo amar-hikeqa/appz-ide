@@ -16,7 +16,7 @@ deploy:
   replicas: 1
   port:
   - 80
-  - { port : 80808081, protocol: TCP, name : webserver }
+  - { port : 8080, protocol: TCP, name : webserver }
   
 volumes:
 - claim: home
