@@ -13,7 +13,7 @@ build:
 deploy:
   type: statefulset
   context: amar-hikeqa/DEV
-  replicas: 2
+  replicas: 1
   port:
   - 80
   - { port : 8080, protocol: TCP, name : webserver }
